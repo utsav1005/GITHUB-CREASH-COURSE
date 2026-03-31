@@ -43,14 +43,21 @@ shows commits in inline
 ```
 git log --oneline
 ```
-
 Set the global editor
 ```
 git config --global core.editor emacs
-```
+
 
 ## Branches
-
+create a branch 
+```
+git branch branch-name
+```
+to chekout branch or switch branch from one to another use this command
+```
+git checkout new branch-name or
+git switch new branch (Newer command)
+```
 ## Remotes
 
 ## Stashing
@@ -91,7 +98,7 @@ git push orgin
 ## Reset
 Reset allows you to stash changes to unstashed.
 this is useful when you to revert all files not to be not commited 
-```
+
 git add .
 git reset
 ```
